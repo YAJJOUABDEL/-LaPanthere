@@ -27,7 +27,7 @@ a:hover {
     background: #FFFFFF url("img/pageload-spinner.gif") no-repeat center center;
 }
 /********** Ajout de l'élément h2 ***************/
-.design,h2 {
+.row {
     text-align: center;
 }
 
