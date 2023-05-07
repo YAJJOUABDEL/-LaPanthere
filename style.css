@@ -29,6 +29,8 @@ a:hover {
 /********** Ajout de l'élément h2 ***************/
 .row {
     text-align: center;
+    font-weight: 900;
+    text-shadow: 0 0 30px #fff!important;
 }
 
 .bloc {
