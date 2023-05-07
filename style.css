@@ -779,9 +779,9 @@ h4 {
 .bgc-atomic-tangerine {
     background-color: #F3976C;
 }
-
+/********** Changement de couleur du titre Agence la Panthère ********/
 .tc-white {
-    color: #F3976C!important;
+    color: #000!important;
 }
 /******** Changement de couleur du btn contact ********/
 .btn-atomic-tangerine {
