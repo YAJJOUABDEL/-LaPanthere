@@ -29,7 +29,6 @@ a:hover {
 /********** Ajout de l'élément h2 ***************/
 .row {
     text-align: center;
-    font-weight: 900;
     text-shadow: 0 0 30px #fff!important;
 }
 
@@ -784,6 +783,7 @@ h4 {
 /********** Changement de couleur du titre Agence la Panthère ******/
 .tc-white {
     color: #000!important;
+    font-weight: 900;
 }
 /******** Changement de couleur du btn contact ********/
 .btn-atomic-tangerine {
