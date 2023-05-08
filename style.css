@@ -536,11 +536,12 @@ button {
     font-size: 14px;
     opacity: 1;
 }
-
+/*********** Ajustement des photos en version mobile *************/
 a[data-lightbox] {
     position: relative;
-    display: block;
+    display: flex;
     text-align: center;
+    justify-content: center;
 }
 
 a[data-lightbox]:hover::before {
