@@ -332,13 +332,12 @@ a:hover {
 .nav > li {
     float: left;
     margin-top: 4px;
-    font-size: 16px;
+    font-size: 20px;
+    font-weight: 900;
 }
 
 .navbar-nav .open .dropdown-menu > li > a {
     text-align: inherit;
-    font-size: 20px;
-    font-weight: 800;
 }
 
 .nav > li a:hover,
