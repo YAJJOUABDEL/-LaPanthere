@@ -661,7 +661,11 @@ a {
     font-weight: 400;
     color: #000!important;
 }
-
+.citation, p {
+    font-size: 19px;
+    font-style: oblique;
+    font-weight: 500;
+}
 .container {
     max-width: 1000px;
 }
