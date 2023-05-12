@@ -805,7 +805,8 @@ h4 {
 }
 
 .ltc-white {
-    color: #FFFFFF!important;
+    color: #000!important;
+    font-size: 22px
 }
 
 .ltc-white:hover {
