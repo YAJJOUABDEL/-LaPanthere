@@ -661,7 +661,7 @@ a {
     font-weight: 400;
     color: #000!important;
 }
-.citation, p {
+.citation {
     font-size: 19px;
     font-style: oblique;
     font-weight: 500;
