@@ -661,12 +661,17 @@ label,
 a {
     font-family: "helvetica";
     font-weight: 400;
-    color: #000!important;
 }
 .citation {
     font-size: 19px;
     font-style: oblique;
     font-weight: 500;
+    color: #4c4c4c;
+}
+/************ Couleur de citation ************/
+.citation-2 {
+  font-size: 19px;
+  color: #888888;
 }
 /********** Image de la panthère dans la bannière **********/
 .center-block {
@@ -704,12 +709,7 @@ a {
 p {
     font-size: 16px;
 }
-/************ Couleur de sitation ************/
-p.citation-2 {
-  color: #CFCFCF;
-  font-weight: 800;
-}
-/**********************************************/
+
 .tight-width-whitespace {
     max-width: 600px;
     margin: auto auto auto auto;
