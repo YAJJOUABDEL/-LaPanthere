@@ -311,6 +311,8 @@ a:hover {
     max-height: 200px;
     margin: 0 5px 0 0;
     display: inline;
+    width: 300px;
+    height: 55px;
 }
 
 .navbar-brand img[src$=svg] {
@@ -666,6 +668,14 @@ a {
     font-style: oblique;
     font-weight: 500;
 }
+/********** Image de la panthère dans la bannière **********/
+.center-block {
+    width: 100px;
+    height: 100px;
+}
+/********************************************************/
+
+
 .text-real {
     font-size: 22px;
 }
