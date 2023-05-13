@@ -666,6 +666,9 @@ a {
     font-style: oblique;
     font-weight: 500;
 }
+.text-real {
+    font-size: 22px;
+}
 .container {
     max-width: 1000px;
 }
