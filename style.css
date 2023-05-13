@@ -704,7 +704,12 @@ a {
 p {
     font-size: 16px;
 }
-
+/************ Couleur de sitation ************/
+p.citation-2 {
+  color: #CFCFCF;
+  font-weight: 800;
+}
+/**********************************************/
 .tight-width-whitespace {
     max-width: 600px;
     margin: auto auto auto auto;
