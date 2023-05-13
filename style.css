@@ -661,17 +661,16 @@ label,
 a {
     font-family: "helvetica";
     font-weight: 400;
+    color: #000!important;
 }
 .citation {
     font-size: 19px;
     font-style: oblique;
     font-weight: 500;
-    color: #4c4c4c;
 }
 /************ Couleur de citation ************/
 .citation-2 {
   font-size: 19px;
-  color: #797979;
 }
 /********** Image de la panthère dans la bannière **********/
 .center-block {
