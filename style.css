@@ -667,6 +667,7 @@ a {
     font-size: 19px;
     font-style: italic;
     font-weight: bold;
+    margin-bottom: 0;
 }
 /************ Couleur de citation ************/
 .citation-2 {
