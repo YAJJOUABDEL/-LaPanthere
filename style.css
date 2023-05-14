@@ -661,12 +661,11 @@ label,
 a {
     font-family: "helvetica";
     font-weight: 400;
-    color: #000!important;
+    color: #575757!important;
 }
 .citation {
     font-size: 19px;
-    font-style: oblique;
-    font-weight: 500;
+    font-style: italic;
 }
 /************ Couleur de citation ************/
 .citation-2 {
