@@ -311,12 +311,12 @@ a:hover {
     max-height: 200px;
     margin: 0 5px 0 0;
     display: inline;
-    width: 216px;
-    height: 40px;
 }
 
 .navbar-brand img[src$=svg] {
     min-width: 100px;
+    width: 216px;
+    height: 40px;
 }
 
 .nav-center .navbar-brand img {
