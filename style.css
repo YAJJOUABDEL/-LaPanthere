@@ -798,6 +798,9 @@ h4 {
 
 .bgc-white {
     background-color: #FFFFFF;
+}
+
+#bloc-7 {
     display: flex;
     justify-content: center;
 }
