@@ -18,7 +18,14 @@ a:hover {
     cursor: pointer;
 }
 
-
+#page-loading-blocs-notifaction {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    z-index: 100000;
+    background: #FFFFFF url("img/pageload-spinner.gif") no-repeat center center;
+}
 /********** Ajout de l'élément h2 ***************/
 .row {
     text-align: center;
