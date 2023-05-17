@@ -798,6 +798,8 @@ h4 {
 
 .bgc-white {
     background-color: #FFFFFF;
+    display: flex;
+    justify-content: center;
 }
 
 .bgc-atomic-tangerine {
@@ -843,7 +845,8 @@ h4 {
 }
 
 .bg-dots-bg {
-    background-image: url("img/dots-bg.webp");
+    display: flex;
+    justify-content: center;
 }
 
 .bg-lines-h2-bg {
