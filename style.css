@@ -825,6 +825,11 @@ h4 {
     color: #000!important;
 }
 
+#bloc-8 {
+    display: flex;
+    justify-content: center;
+}
+
 .ltc-white {
     color: #000!important;
     font-size: 22px
