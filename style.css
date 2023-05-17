@@ -563,6 +563,7 @@ a[data-lightbox]:hover::before {
     transform: translateY(-50%);
     -webkit-transform: translateY(-50%);
 }
+/*********** Mise en place du Font-face ***********/
 @font-face {
     font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial; font-display: swap;
 }
