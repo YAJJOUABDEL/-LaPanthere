@@ -296,6 +296,9 @@ a:hover {
 .navbar {
     margin-bottom: 0;
     z-index: 1;
+    display: flex;
+    position: relative;
+    gap: 30px;
 }
 
 .navbar-brand {
