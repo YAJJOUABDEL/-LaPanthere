@@ -551,7 +551,7 @@ a[data-lightbox] {
 
 a[data-lightbox]:hover::before {
     content: "+";
-    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial; font-display: swap;
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial;
     font-size: 32px;
     width: 50px;
     height: 50px;
@@ -567,9 +567,6 @@ a[data-lightbox]:hover::before {
     -webkit-transform: translateY(-50%);
 }
 /*********** Mise en place du Font-face ***********/
-@font-face {
-    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial; font-display: swap;
-}
 
 a[data-lightbox]:hover img {
     opacity: 0.6;
@@ -666,7 +663,7 @@ p,
 label,
 .btn,
 a {
-    font-family: "helvetica";font-display: swap;
+    font-family: "helvetica";
     font-weight: 400;
     color: #575757!important;
     font-size: 19px;
@@ -725,7 +722,7 @@ p {
 
 .h1 {
     font-size: 20px;
-    font-family: "Open Sans";font-display: swap;
+    font-family: "Open Sans";
 }
 
 .cta-hero {
@@ -900,13 +897,13 @@ h4 {
     }
 }
 
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
+@media only screen and (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
     .b-parallax {
         background-attachment: scroll;
     }
 }
 
-@media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 1.5) {
+@media only screen and (min-width: 1024px) and (max-width: 1366px) and (-webkit-min-device-pixel-ratio: 1.5) {
     .b-parallax {
         background-attachment: scroll;
     }
@@ -925,8 +922,10 @@ h4 {
         position: relative;
     }
     .bloc {
-        padding-left: constant(safe-area-inset-left);
-        padding-right: constant(safe-area-inset-right);
+        --safe-area-inset-left: 10px;
+        --safe-area-inset-right: 10px;
+        padding-left: var(--safe-area-inset-left);
+        padding-right: var(--safe-area-inset-right);
     }
     .bloc-group,
     .bloc-group .bloc {
