@@ -910,6 +910,11 @@ h4 {
 }
 
 @media (max-width: 991px) {
+    
+    :root {
+        --safe-area-inset-left: 10px;
+        --safe-area-inset-right: 10px;
+    }
     .container {
         width: 100%;
     }
@@ -922,8 +927,6 @@ h4 {
         position: relative;
     }
     .bloc {
-        --safe-area-inset-left: 10px;
-        --safe-area-inset-right: 10px;
         padding-left: var(--safe-area-inset-left);
         padding-right: var(--safe-area-inset-right);
     }
@@ -935,8 +938,8 @@ h4 {
     .bloc-fill-screen .fill-bloc-top-edge,
     .bloc-fill-screen .fill-bloc-bottom-edge {
         padding: 0 20px;
-        padding-left: constant(safe-area-inset-left);
-        padding-right: constant(safe-area-inset-right);
+        padding-left: var(--safe-area-inset-left);
+        padding-right: var(--safe-area-inset-right);
     }
 }
 
